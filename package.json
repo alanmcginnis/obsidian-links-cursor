@@ -1,0 +1,26 @@
+{
+  "name": "obsidian-links",
+  "displayName": "Obsidian Links",
+  "description": "Makes obsidian:// links clickable in Markdown files and preview",
+  "version": "1.0.0",
+  "publisher": "alanmcginnis",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "obsidian-links.openLink",
+        "title": "Open Obsidian Link"
+      }
+    ],
+    "markdown.markdownItPlugins": true
+  }
+}
