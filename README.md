@@ -1,4 +1,4 @@
-# Obsidian Links for Cursor
+# Cursor Clickable Obsidian Links
 
 Makes `obsidian://` links clickable in Markdown files (both in the editor and preview).
 
